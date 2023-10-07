@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#top{
+    position: fixed; /* 将元素定位为固定位置 */
+    top: 0; /* 从顶部开始定位 */
+    left: 0; /* 从左侧开始定位 */
+    right: 0; /* 从右侧结束定位 */
+    padding: 15px;
+    background-image: radial-gradient(54.97% 272.54% at 27.36% -134.72%, rgba(108, 148, 255, .92) 0, rgba(0, 0, 0, .92) 100%);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 9999; /* 设置一个足够大的 z-index 值，确保始终位于其他元素之上 */
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 50px;
+    width: auto;
+    position: relative;
+    top: 50px; /* 添加相对定位 */
+    z-index: 10000; /* 设置一个更高的 z-index 值 */
+}
+#nav-logo{
+    flex: 1;
+}
+#nav-logo svg{
+  width:35%
+}
+
+.main video{
+    position: absolute;
+    width: 100%;
+    height: 140%;
+    object-fit: cover;
+    z-index: -1;
+}
+#nav-center{
+    flex: 1;
+    padding-left: 90px;
+    padding-right: 90px;
+    display: flex;
+    justify-content:space-around;
+
+
+}
+#nav-center a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #171a20;
+}
+
+#nav-login{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+
+    
+}
+#nav-login a{
+    width: 25px;
+    padding-left: 20px;
+}
+
+#nav-login svg{
+    width: 25px;
+
+}
+
+#center-title{
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    
+
+    
+}
+#center-title p{
+    font-size: 35px;
+}
+#center-title a{
+    color: #171a20;
+    font-size: 14px;
+}
+
+#top-button{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40%;
+
+}
+.btn-black{
+    text-decoration: none;
+    margin: 40px 20xp;
+    background-color: rgba(23, 26, 32, 0.8);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    width: 200px;
+
+    padding: 13px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn-white{
+    text-decoration: none;
+    margin: 40px 20px;
+    background-color: rgba(244, 244, 244, 0.65);
+    border-radius: 5px;
+    color: #393c41;
+    font-size: 14px;
+    width: 200px;
+
+    padding: 13px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+#video-button{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40%;
+    margin-bottom: 20px;
+
+}
+.touming{
+    text-decoration: none;
+    margin: 40px ;
+    background:none;
+    border: #ffffff solid 2px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    width: 260px;
+
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#ps{
+
+    color: #ffffff;
+    font-size: 10px;
+
+}
+#bottom-p{
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    justify-content: center;
+
+    padding:  22px;
+}
+#bottom-p a{
+    text-decoration: none;
+    color: rgb(208, 209, 210);
+    font-size: 5px;
+    padding:10px;
+}
