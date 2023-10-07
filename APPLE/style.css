@@ -1,0 +1,67 @@
+a{
+    text-decoration: none;
+  
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.main-text{
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    padding: 50px;
+    color: #1d1d1f;
+
+  
+
+
+    
+}
+.main-text-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+
+ 
+    
+
+}
+.main-text-neirong{
+  
+    font-size: 30px;
+    padding-bottom: 20px;
+    
+}
+.shop{
+    padding-top:20px;
+    font-size: 20px;
+    color: #0066cc;
+}
+.learn-more{
+
+    padding-right: 20px;
+    font-size: 20px;
+    color: #0066cc;
+    padding-top: 30px;
+
+
+
+
+}
+.back{
+    position: 44px;
+}
+img{
+    height: 500px;
+
+}
+.lianjie{   
+    display: flex;
+    justify-content: space-around;
+
+}
